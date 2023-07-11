@@ -185,14 +185,10 @@ input[type="email"]{
     justify-content: space-between;
     margin: 0px 100px;
     padding: 50px 0px;
-
-
 }
 .address-1{
     border-bottom: 1px solid black;
 }
-
-
 .address li{
     list-style: none;
     font-size: 16px;
