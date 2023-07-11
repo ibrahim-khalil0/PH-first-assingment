@@ -130,3 +130,101 @@
 .discount-image{
     width: 40%;
 }
+.instagram-image{
+    display: flex;
+    justify-content: space-between;
+}
+.image-area{
+    width: 24%;
+    margin-top:30px;
+}
+.image-area img{
+    width: 100%;
+}
+.coupon-section{
+    margin: 100px 140px;
+    background-image: url("images/Rectangle9.png");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 300px;
+    text-align: center;
+}
+input[type="email"]{
+    width: 70%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px
+}
+.store-location{
+    display: flex;
+    margin-bottom: 100px;
+}
+.location-area{
+    width: 50%;
+}
+.location-img{
+    background-color: #FCEEF1;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.location-img img{
+    border-radius: 100px 100px 0px 0px;
+}
+.location-details{
+    background-color: #E3EBDB;
+    padding-top: 160px;
+    position: relative;
+}
+.location-details .primary-heading{
+    margin: 0px 100px;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding: 50px 0px;
+
+
+}
+.address-1{
+    border-bottom: 1px solid black;
+}
+
+
+.address li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.bonus{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #E55473;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 100;
+    border-radius: 0px 0px 0px 10px;
+}
+.footer-section{
+    background-color: #111010;
+    text-align: center;
+}
+.footer-heading{
+    font-size: 42px;
+    color: white;
+    padding-top: 120px;
+}
+.footer-section .description{
+    color: rgba(255, 255, 255, 0.75);
+}
+.copyright-text{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.348);
+    margin-top: 30px;
+    padding-bottom: 120px;
+}
