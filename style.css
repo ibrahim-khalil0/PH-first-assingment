@@ -2,7 +2,10 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
 }
+
+
 .btn-primary{
     background-color: #E55473;
     font-size: 16px;
@@ -41,7 +44,7 @@
     text-align: right;
 }
 .main-heading{
-    font-size: 70px;
+    font-size: 4em;
     font-weight: 700;
     color: #272727;
 }
@@ -223,4 +226,78 @@ input[type="email"]{
     color: rgba(255, 255, 255, 0.348);
     margin-top: 30px;
     padding-bottom: 120px;
+}
+
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .main-section{
+        padding-right: 30px;
+        padding-left: 30px;
+        flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .main-heading{
+        font-size: 2em;
+        font-weight: 700;
+        color: #272727;
+    }
+
+    .featured-images{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .featured-content{
+        width: 100%;
+    }
+    .delivery-section{
+        margin-right: 0px;
+        margin-left: 0px;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .discount-content{
+        width: 100%;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .discount-content img{
+        width: 100%;
+    }
+    .instagram-image{
+        column-gap: 2%;
+        flex-wrap: wrap;
+    }
+    .image-area{
+        width: 49%;
+    }
+    .coupon-section{
+        margin: 0px;
+    }
+    .store-location{
+        padding: 0px;
+        flex-direction: column;
+    }
+    .location-area{
+        width: 100%;
+    }
+    .address{
+        flex-direction: column;
+        text-align: center;
+        margin: 0px;
+    }
+    .location-details .primary-heading{
+        margin: 0px;
+        text-align: center;
+    }
 }
